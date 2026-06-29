@@ -196,8 +196,4 @@ Product catalog automation
 Built as an automated AI marketing pipeline using n8n + Gemini + FLUX.2-dev + Docling + Gotemberg.
 
 
----
 
-If you want next upgrade, I can also:
-- :contentReference[oaicite:0]{index=0}
-- or :contentReference[oaicite:1]{index=1}
