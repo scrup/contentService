@@ -123,3 +123,81 @@ Each product generates:
 ---
 
 # 🧩 Workflow Summary
+
+PDF → Docling → Gemini (Text + Benefits)
+→ Gemini (Image Prompt)
+→ FLUX.2-dev (Image Generation)
+→ Gotemberg (PDF Brochure)
+→ Final Marketing Assets
+
+
+
+---
+
+# 💡 Example Use Case
+
+Input:
+- 86" Interactive Display Datasheet
+
+Output:
+- LinkedIn post:
+  “Most boardroom displays fail under real lighting conditions…”
+
+- Visual prompt:
+  Premium corporate boardroom with ultra-bright 86” interactive display in sunlight-filled office, crisp visibility, executive environment, cinematic lighting, ultra-realistic commercial photography.
+
+- Generated image:
+  High-end B2B marketing visual
+
+- Brochure:
+  Professional PDF product sheet
+
+---
+
+# 📌 Use Case
+
+Ideal for:
+
+- AV distributors
+- Smart display manufacturers
+- B2B marketing teams
+- Digital signage companies
+- Product marketing automation
+
+---
+
+# 🛠️ Setup (n8n Docker)
+
+1. Clone repository:
+```bash
+git clone https://github.com/your-repo/n8n-automation.git
+````
+
+2. Start n8n:
+```bash
+docker-compose up -d
+```
+
+3. Import workflow JSON into n8n
+4. 
+# 🔐 Notes
+Ensure API keys for Gemini, FLUX.2-dev, and Gotemberg are configured in n8n credentials.
+Do not expose sensitive keys in GitHub.
+
+#🚀 Future Improvements
+Multi-language support (EN / FR / AR)
+Auto-brand style adaptation
+Batch PDF processing
+Direct CMS publishing (LinkedIn, Meta Ads)
+Product catalog automation
+
+#📬 Author
+
+Built as an automated AI marketing pipeline using n8n + Gemini + FLUX.2-dev + Docling + Gotemberg.
+
+
+---
+
+If you want next upgrade, I can also:
+- :contentReference[oaicite:0]{index=0}
+- or :contentReference[oaicite:1]{index=1}
